@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="879a4fee-f705-4327-8a77-f44d02f263cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/calc/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/calc/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/calc/MyMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/calc/NetWorkUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/calc/Vector2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/calc/MyMathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/calc/NetWorkUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/calc/Vector2DTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +45,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -64,8 +59,8 @@
       <recent name="com.mariia.calc" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CalculatorTest.squaring">
-    <configuration name="CalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MyMathTest.zeroDenominatorShouldThrowException">
+    <configuration name="MyMathTest.zeroDenominatorShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -78,7 +73,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mariia.calc.CalculatorTest&quot;" />
+            <option value="&quot;com.mariia.calc.MyMathTest.zeroDenominatorShouldThrowException&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -88,7 +83,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorTest.add" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NetWorkUtilsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -101,7 +96,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mariia.calc.CalculatorTest.add&quot;" />
+            <option value="&quot;com.mariia.calc.NetWorkUtilsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -111,7 +106,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorTest.division" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NetWorkUtilsTest.getConnectionShouldReturnFasterThanOneSecond" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -124,7 +119,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mariia.calc.CalculatorTest.division&quot;" />
+            <option value="&quot;com.mariia.calc.NetWorkUtilsTest.getConnectionShouldReturnFasterThanOneSecond&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,7 +129,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorTest.squaring" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Vector2DTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +142,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mariia.calc.CalculatorTest.squaring&quot;" />
+            <option value="&quot;com.mariia.calc.Vector2DTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -157,7 +152,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorTest.whenAddTenToFiveThenResultFifteen" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Vector2DTest.newVectorShouldHaveZeroLength" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -170,7 +165,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mariia.calc.CalculatorTest.whenAddTenToFiveThenResultFifteen&quot;" />
+            <option value="&quot;com.mariia.calc.Vector2DTest.newVectorShouldHaveZeroLength&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CalculatorTest.squaring" />
-        <item itemvalue="Gradle.CalculatorTest.whenAddTenToFiveThenResultFifteen" />
-        <item itemvalue="Gradle.CalculatorTest" />
-        <item itemvalue="Gradle.CalculatorTest.division" />
-        <item itemvalue="Gradle.CalculatorTest.add" />
+        <item itemvalue="Gradle.MyMathTest.zeroDenominatorShouldThrowException" />
+        <item itemvalue="Gradle.NetWorkUtilsTest.getConnectionShouldReturnFasterThanOneSecond" />
+        <item itemvalue="Gradle.NetWorkUtilsTest" />
+        <item itemvalue="Gradle.Vector2DTest" />
+        <item itemvalue="Gradle.Vector2DTest.newVectorShouldHaveZeroLength" />
       </list>
     </recent_temporary>
   </component>
