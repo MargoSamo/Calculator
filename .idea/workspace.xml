@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="879a4fee-f705-4327-8a77-f44d02f263cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/calc/MyMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/calc/NetWorkUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/calc/Vector2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/calc/MyMathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/calc/NetWorkUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/calc/Vector2DTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mariia/calc/MyMathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mariia/calc/MyMathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mariia/calc/Vector2DTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mariia/calc/Vector2DTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
       <recent name="com.mariia.calc" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MyMathTest.zeroDenominatorShouldThrowException">
+  <component name="RunManager" selected="Gradle.Vector2DTest">
     <configuration name="MyMathTest.zeroDenominatorShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -177,10 +171,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Vector2DTest" />
         <item itemvalue="Gradle.MyMathTest.zeroDenominatorShouldThrowException" />
         <item itemvalue="Gradle.NetWorkUtilsTest.getConnectionShouldReturnFasterThanOneSecond" />
         <item itemvalue="Gradle.NetWorkUtilsTest" />
-        <item itemvalue="Gradle.Vector2DTest" />
         <item itemvalue="Gradle.Vector2DTest.newVectorShouldHaveZeroLength" />
       </list>
     </recent_temporary>
